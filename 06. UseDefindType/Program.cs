@@ -50,6 +50,7 @@
             Season season2 = (Season)0;     // 정수에서 열거형변수로 형변환
             Console.WriteLine(season2);     // Spring
         }
+        // int와 열거형은 서로 형변환 가능
 
 
 
@@ -63,6 +64,7 @@
         // <구조체 구성>
         // struct 구조체이름 { 구조체내용 }
         // 구조체 내용으로는 변수와 함수가 포함 가능
+        // { 구조체 내용 } = {변수에는 자료데이터 보관, 기능은 자효들을 이용한 기능, 그 기능으로 구성된 함수}
         struct StudentInfo
         {
             public string name;

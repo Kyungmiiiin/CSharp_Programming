@@ -37,6 +37,23 @@
                 Console.WriteLine("실행되는 블록");
             }
 
+            int playerHP = 100;
+            int monsterAtk = 0;
+
+            if (playerHP > monsterAtk) 
+            {
+                //조건식의 결과가 true라면 실행됨
+                Console.WriteLine("플레이어가 데미지를 받습니다.");
+                playerHP -= monsterAtk;
+            }
+            else
+            {
+                //조건식의 결과가 false라면 실행됨
+                Console.WriteLine("플레이어가 쓰러집니다.");
+                playerHP = 0;
+            }
+
+
 
             // else 블록은 선택사항으로 필요없을 경우 추가하지 않아도 됨
             if (true)
@@ -64,7 +81,7 @@
             {
                 Console.WriteLine("보를 입력");
             }
-            else
+            else        //그 외의 나머지값
             {
                 Console.WriteLine("잘못된 값을 입력");
             }

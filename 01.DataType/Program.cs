@@ -68,7 +68,7 @@
             int rValue = 20;
             int lValue = rValue;
             Console.WriteLine($"rValue 변수에 보관된 데이터는 {rValue} 입니다.");
-            Console.WriteLine($"lValue 변수에 보관된 데이터는 {lValue} 입니다.");
+            Console.WriteLine($"lValue 변수에 보관된 데이터는 {lValue} 입니다.");  // $ : 문자열 보간
 
 
 
@@ -82,7 +82,7 @@
 
             // <상수 선언 및 초기화>
             // 변수 선언 앞에 const 키워드를 추가하여 상수 선언
-            const int MAX = 200;        // MAX 상수 변수를 선언하고 초기화
+            const int MAX = 200;        // MAX 상수 변수를 선언하고 초기화 (상수는 대문자로 쓰는걸 추천)
             Console.WriteLine($"MAX 상수에 보관된 데이터는 {MAX} 입니다.");
             // const int MIN;           // error : 상수는 초기화 없이 사용불가
             // MAX = 20                 // error : 상수의 데이터 변경 불가

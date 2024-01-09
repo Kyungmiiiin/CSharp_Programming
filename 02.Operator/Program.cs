@@ -31,7 +31,7 @@
 
             // <단항 연산자>
             iValue = +iValue;   // + 단항연산자(양수)  : 값을 반환
-            iValue = -iValue;   // - 단항연산자(음수)  : 값의 마이너스를 반환
+            iValue = -iValue;   // - 단항연산자(음수)  : 값의 마이너스를 반환 -> 2의 보수로 만들기
             ++iValue;           // ++ 전위증가연산자   : 값을 1 증가
             iValue++;           // ++ 후위증가연산자   : 값을 1 증가
             --iValue;           // -- 전위감소연산자   : 값을 1 감소
@@ -44,6 +44,7 @@
             Console.WriteLine(iValue);   // output : 0
             Console.WriteLine(++iValue); // output : 1
             Console.WriteLine(iValue);   // output : 1
+
             // 후위연산자 : 값을 반환한 후에 연산
             iValue = 0;
             Console.WriteLine(iValue);   // output : 0

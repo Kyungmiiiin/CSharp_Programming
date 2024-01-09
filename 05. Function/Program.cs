@@ -44,7 +44,7 @@
             // 함수를 사용하는 경우
             int value4 = Plus(1, 2);
             int value5 = Plus(3, 4);
-            int value6 = Plus(5, 6);
+            int value6 = Plus(5, 6);        //함축 시킬 수 있음
         }
 
 
@@ -61,6 +61,7 @@
             Console.WriteLine("도달하지 못하는 코드");
         }
 
+
         void PrintProfile(string name, string phone)
         {
             if (name == "")
@@ -71,6 +72,7 @@
 
             Console.WriteLine($"이름 : {name}, Phone : {phone}");
         }
+
 
         void Main2()
         {
@@ -84,6 +86,7 @@
         // <매개변수 (Parameter)>
         // 함수에 추가(입력)할 데이터의 자료형과 변수명
         // 같은 함수에서도 매개변수 입력이 다름에 따라 다른 처리가 가능
+        // 상황에 따라 다른, 내가 원하는 처리가 가능
         int Minus(int left, int right)
         {
             // 함수의 입력으로 넣어준 매개변수 left, right 에 따라 함수가 동작
